@@ -39,13 +39,6 @@ while entry < 5:
 
 print(Message)
 
-
-
-# Api_key = aabsydBZEGwnLmsMOeoALsfXm
-# Api_secret_key = okBsYcmxI8H0uzuOvwGtx80QeRlXbVFzr9zHS0kibEmYBhPwsU
-# Access_token = 1417094768635510788-Q3lAsfeiChU5tQQRZLkie69HoEJ0dI
-# Access_token_secret = OjRLMM6zrbeKDpcJeOfjGLXYndvYYj9dWvSE0HHRYXTHo
-
 api = twitter.Api(consumer_key='aabsydBZEGwnLmsMOeoALsfXm',consumer_secret='okBsYcmxI8H0uzuOvwGtx80QeRlXbVFzr9zHS0kibEmYBhPwsU', access_token_key='1417094768635510788-Q3lAsfeiChU5tQQRZLkie69HoEJ0dI',access_token_secret='OjRLMM6zrbeKDpcJeOfjGLXYndvYYj9dWvSE0HHRYXTHo')
 
 api.PostUpdate(Message)
